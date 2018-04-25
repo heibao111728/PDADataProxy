@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\HyteraClient">
+      <UniqueIdentifier>{7f18cc48-fad7-4ab4-a581-3117b80263a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SoapClient">
+      <UniqueIdentifier>{e74d58a2-2cbe-4053-8f66-8693c3425896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SoapClient">
+      <UniqueIdentifier>{49747ee7-e36c-4b28-9f7c-597f21f99f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HyteraClient">
+      <UniqueIdentifier>{c8cbd8fe-14be-43bb-a806-87e111dd8c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PUBLIC">
+      <UniqueIdentifier>{cd063555-b93b-4483-84ac-806344ee8079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PUBLIC">
+      <UniqueIdentifier>{91fe99fd-97ea-4e3f-81b0-8ea558ce1bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MsgRepository">
+      <UniqueIdentifier>{d08e9781-ae65-4e73-b862-b4e06c4723ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MsgRepository">
+      <UniqueIdentifier>{3374687d-5201-4cc9-bce5-6c98c0e48bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Win32pdaWsDll">
+      <UniqueIdentifier>{01cf6198-45e7-4444-8f41-d5e5bf02f52e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PDADataProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PDADataProxyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mygloble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HyteraClient\include\HyteraClient.h">
+      <Filter>Header Files\HyteraClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MsgRepository\include\MsgRepository.h">
+      <Filter>Header Files\MsgRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MsgRepository\include\MyFifo.h">
+      <Filter>Header Files\MsgRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MsgRepository\include\MyNode.h">
+      <Filter>Header Files\MsgRepository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PUBLIC\include\connection\Connection.h">
+      <Filter>Header Files\PUBLIC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32pdaWsDll\include\soapH_pdaWs.h">
+      <Filter>Header Files\Win32pdaWsDll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32pdaWsDll\include\soapPdaWsSoapBindingProxy.h">
+      <Filter>Header Files\Win32pdaWsDll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32pdaWsDll\include\soapStub_pdaWs.h">
+      <Filter>Header Files\Win32pdaWsDll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32pdaWsDll\include\stdsoap2.h">
+      <Filter>Header Files\Win32pdaWsDll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Win32pdaWsDll\include\Win32pdaWsDll.h">
+      <Filter>Header Files\Win32pdaWsDll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SoapClient\include\SoapClient.h">
+      <Filter>Header Files\SoapClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PDADataProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PDADataProxyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HyteraClient\src\HyteraClient.cpp">
+      <Filter>Source Files\HyteraClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MsgRepository\src\MsgRepository.cpp">
+      <Filter>Source Files\MsgRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MsgRepository\src\MyFifo.cpp">
+      <Filter>Source Files\MsgRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MsgRepository\src\MyNode.cpp">
+      <Filter>Source Files\MsgRepository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PUBLIC\src\connection\Connection.cpp">
+      <Filter>Source Files\PUBLIC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SoapClient\src\SoapClient.cpp">
+      <Filter>Source Files\SoapClient</Filter>
+    </ClCompile>
+    <ClCompile Include="mygloble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PDADataProxy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PDADataProxy.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PDADataProxy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
